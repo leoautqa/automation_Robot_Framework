@@ -1,0 +1,10 @@
+**/venv
+**/results
+**/Results
+**/*.png
+**/*.html
+**/*.xml
+**/dev.robot
+**/.vscode
+**/.ideia
+**/acesso.txt
