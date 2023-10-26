@@ -1,33 +1,31 @@
-# Tabela de conteúdos
+# Table of contents
 =================
 <!--ts-->
-   * [Introdução](#Introdução)
-   * [Dependências](#Dependencias)
-   * [Executando testes](#executando-testes)
+   * [Introduction](#Introduction)
+   * Dependencies](#Dependencies)
+   * [Running tests](#running-tests)
 <!--te-->
 
-# Introdução
-Este modelo servirá de base para a construção de novos testes de front-end automatizados utilizando o robot framework. A arquitetura proposta aqui visa facilitar a padronização dos projetos, o intercâmbio de informações e a adaptação dos testadores em novas células.
+# Introduction
+This model will serve as the basis for building new automated front-end tests using the robot framework. The architecture proposed here aims to facilitate the standardization of projects and the exchange of information.
 
-# Dependências
-O ambiente precisa ter o [Python](https://www.python.org/downloads/) instalado e recomendamos o uso do [Atom](https://atom.io/) como editor padrão no nosso projeto de automação front-end.
+# Dependencies
+The environment needs to have [Python](https://www.python.org/downloads/) installed and we recommend using [VSCode](https://code.visualstudio.com/) as the default editor in our front-end automation project.
 
-Após clonar o repositório, **não se esqueça de colocar os diretórios gitwork\epharma.AutomationFrontend\webdrivers e gitwork\epharma.AutomationFrontend\Oracle_instantclient_19_10 na variável de ambiente _PATH_**. O primeiro diretório, webdrivers, contém os drivers necessários para controlar os browsers, enquanto o diretório Oracle_instantclient_19_10 contém os arquivos necessários para a conexão com o database da oracle. Nota: gitwork corresponde a raíz do seu diretório do git.
-
-**Instale as dependências!** Para instalar, navegue até o diretório _Portal.SuperaPBS_, então execute:
+**To install, navigate to the robot framework directory, then run:
 ```bash
 $ pip install -r requirements.txt
 ```
 
-# Executando testes
-Navegue até o diretório TestSuite, em seguida execute:
+# Running tests
+Navigate to the TestSuite directory, then run:
 ```bash
 $ robot -d ..\Results\ -i <tag> .
-$ robot -d ..\Results\ -i "BENEFICIO_CLIENTE" .
+$ robot -d ..\Results\ -i "Serverest" .
 ```
 
-### 🛠 Tecnologias
-As seguintes ferramentas foram usadas na construção do projeto:
+### 🛠 Technologies
+The following tools were used to build the project:
 
 - [Python](https://www.python.org/downloads/)
-- [Atom](https://atom.io/)
+- VSCode](https://code.visualstudio.com/)
